@@ -1,0 +1,5 @@
+slot,type,start,stop,required_roles,state,original_lead
+S1,garden,2026-08-15T09:00,2026-08-15T10:30,lead|assist,confirmed,P1
+S2,garden,2026-08-15T10:00,2026-08-15T11:00,lead|assist,confirmed,P2
+S3,kitchen,2026-08-15T10:00,2026-08-15T11:30,lead,proposed,P4
+S4,garden,2026-08-16T10:00,2026-08-16T11:30,lead|assist,proposed,P10

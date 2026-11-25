@@ -1,0 +1,5 @@
+type,role,example_qualifier,supervisor
+garden,lead,confirmed_lead,yes
+garden,assist,confirmed_set_up_or_assist,no
+kitchen,lead,confirmed_lead,no
+kitchen,assist,confirmed_assist,no

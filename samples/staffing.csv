@@ -1,0 +1,8 @@
+record,person,slot,availability,received
+T1,P1,S1,no,2026-08-12
+T2,P2,S1,yes,2026-08-11
+T3,P2,S2,yes,2026-08-11
+T4,P5,S1,yes,2026-08-11
+T5,P4,S3,yes,2026-08-11
+T6,P10,S4,yes,2026-08-11
+T7,P8,S4,yes,2026-08-11

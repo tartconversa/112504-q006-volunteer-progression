@@ -1,0 +1,13 @@
+event,person,episode,type,role,responsibility,observed,confirmed,revision
+E1,P1,K0,garden,shadow,assist,2025-01-18,2025-01-20,a
+E2,P2,K0,garden,shadow,set_up,2025-01-18,2025-01-20,a
+E3,P2,K1,garden,joint,lead,2025-05-01,2025-05-06,a
+E3,P2,K1,garden,joint,assist,2025-05-01,2026-08-12,b
+E4,P1,K1,garden,joint,lead,2025-05-01,2025-05-06,a
+E5,P3,K2,kitchen,shadow,set_up,2025-06-05,2025-06-30,a
+E6,P4,K2,kitchen,joint,assist,2025-06-05,2025-06-07,a
+E7,P4,K3,kitchen,solo,lead,2026-02-05,2026-02-06,a
+E8,P7,K4,kitchen,solo,lead,2025-10-08,2025-10-09,a
+E9,P8,K5,garden,joint,assist,2025-09-01,2025-09-08,a
+E10,P9,K5,garden,shadow,set_up,2025-09-01,2025-09-08,a
+E11,P10,K6,garden,solo,lead,2026-06-10,2026-06-12,a
