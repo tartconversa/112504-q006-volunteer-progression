@@ -1,0 +1,7 @@
+evidence,episode,segment,person,action,minutes,recorded
+L1,K1,opening,P1,lead,20,2025-05-06
+L2,K1,demonstration,P1,lead,35,2025-05-06
+L3,K1,group_b,P2,lead,15,2025-05-06
+L3,K1,group_b,P2,assist,15,2026-08-12
+L4,K2,closing,P4,assist,20,2025-06-07
+L5,K3,full,P4,lead,60,2026-02-06

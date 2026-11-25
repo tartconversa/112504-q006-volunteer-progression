@@ -4,8 +4,8 @@ import unittest
 from pathlib import Path
 
 SAMPLES = Path(__file__).resolve().parents[1] / "samples"
-SCHEMAS = {'people': ['person', 'block', 'joined', 'exit'], 'practice': ['event', 'person', 'episode', 'type', 'role', 'responsibility', 'observed', 'confirmed', 'revision'], 'requests': ['slot', 'type', 'start', 'stop', 'required_roles', 'state', 'original_lead'], 'staffing': ['record', 'person', 'slot', 'availability', 'received'], 'eligibility': ['type', 'role', 'example_qualifier', 'supervisor']}
-REFERENCES = [('practice', 'person', 'people', 'person'), ('staffing', 'person', 'people', 'person'), ('staffing', 'slot', 'requests', 'slot'), ('requests', 'original_lead', 'people', 'person')]
+SCHEMAS = {'people': ['person', 'block', 'joined', 'exit'], 'practice': ['event', 'person', 'episode', 'type', 'role', 'responsibility', 'observed', 'confirmed', 'revision'], 'requests': ['slot', 'type', 'start', 'stop', 'required_roles', 'state', 'original_lead'], 'staffing': ['record', 'person', 'slot', 'availability', 'received'], 'eligibility': ['type', 'role', 'example_qualifier', 'supervisor'], 'segments': ['evidence', 'episode', 'segment', 'person', 'action', 'minutes', 'recorded']}
+REFERENCES = [('practice', 'person', 'people', 'person'), ('staffing', 'person', 'people', 'person'), ('staffing', 'slot', 'requests', 'slot'), ('requests', 'original_lead', 'people', 'person'), ('segments', 'person', 'people', 'person'), ('segments', 'episode', 'practice', 'episode')]
 OBSERVED = [('practice', 'event', 'E3', 2), ('staffing', 'person', 'P2', 2), ('practice', 'episode', 'K1', 3)]
 
 class Sources(unittest.TestCase):

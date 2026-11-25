@@ -1,6 +1,6 @@
 # 居民主理人成长轨迹与接班风险
 
-活动履历区分被指派角色和已核实的责任。录入日期和生效日期分开。
+活动履历区分被指派角色和已核实的责任。录入日期和生效日期分开。 同场可由不同主理人负责不同环节，segments 的重复凭证编号表示该次分工有后续核认。
 
 ## 资料
 
@@ -11,6 +11,7 @@ CSV 样例为合成记录，使用 UTF-8，首行为字段名。多值用竖线�
 - requests.csv 的字段为 slot、type、start、stop、required_roles、state、original_lead。
 - staffing.csv 的字段为 record、person、slot、availability、received。
 - eligibility.csv 的字段为 type、role、example_qualifier、supervisor。
+- segments.csv 的字段为 evidence、episode、segment、person、action、minutes、recorded。
 
 ## 运行资料检查
 
